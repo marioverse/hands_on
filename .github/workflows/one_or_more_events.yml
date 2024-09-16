@@ -2,11 +2,11 @@ name: One or more event triggers
 
 on:
   schedule:
-    - cron: '20 8 16 9 *'
+    - cron: '25 6 16 9 *'
   issues:
     types: [opened]
   push:
-    branches: ["push"]
+    branches: [ "push" ]
 
 jobs:
   testevent:
