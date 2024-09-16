@@ -1,0 +1,16 @@
+name: One or more event triggers
+
+on:
+  issues:
+    types: [opened]
+  push:
+    branches:
+      - 'push'
+
+jobs:
+  testevent:
+    runs-on: ubuntu-latest
+
+  
+  steps:
+  - run: echo Hello from test
