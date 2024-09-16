@@ -2,7 +2,7 @@ name: One or more event triggers
 
 on:
   schedule:
-    - cron: '25 6 16 9 *'
+    - cron: "*/5 * * * *"
   issues:
     types: [opened]
   push:
