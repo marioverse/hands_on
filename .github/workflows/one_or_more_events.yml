@@ -10,7 +10,6 @@ on:
 jobs:
   testevent:
     runs-on: ubuntu-latest
-
-  
-  steps:
-  - run: echo Hello from test
+    
+    steps:
+    - run: echo Hello from test
